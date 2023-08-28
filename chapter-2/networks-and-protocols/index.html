@@ -9,13 +9,13 @@
     <title>Networks and Protocols ·Designing Fullstack Web Application</title>
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/_astro/introduction.b1b104ce.css" />
-<link rel="stylesheet" href="/_astro/introduction.71966078.css" /></head>
+  <link rel="stylesheet" href="/_astro/about.b1b104ce.css" />
+<link rel="stylesheet" href="/_astro/about.2248a099.css" /></head>
   <body>
     <article>
   <div class="chapter-nav astro-FTTOCOJM">
   <div class="astro-FTTOCOJM">
-    <span class="astro-FTTOCOJM">⏴ <a href="/" class="astro-FTTOCOJM">Table of Contents</a></span>
+    <span class="astro-FTTOCOJM">&lt; <a href="/" class="astro-FTTOCOJM">Table of Contents</a></span>
   </div>
   <div class="astro-FTTOCOJM">
     
@@ -29,16 +29,81 @@
 
   <section>
     <p>
-      TODO
+      The simplest possible definition of a network could be: a collection of
+      interconnected nodes. A protocol is the agreement between nodes or
+      applications on how to send messages to each other. How the nodes are
+      nodes and how they communicate amongst each other is the focus of this
+      chapter.
     </p>
+
+    <h3>Networks</h3>
+
+    <h4>Network Architecture an Topology</h4>
+
+    <p>
+      There's an exponential number of ways in which you could connect a group
+      of nodes together, but having nodes organized and connected in
+      arbitrary ways may not be ideal in all cases. Some use cases like
+      peer-to-peer systems, direct connections between and all computers in a
+      network is a desirable trait. However, in a large business, having every
+      node connected to every other can be a security and maintenance disaster.
+      Choosing how your computers are organized in a network depends largely on
+      the requirements of the systems you're designing.
+    </p>
+
+    <p>
+      Some of the most common network architectures, or topologies,
+      are<a class="citation" href="#ref1">[1]</a>:
+      </p><ul>
+        <li>Ring</li>
+        <li>Mesh</li>
+        <li>Start</li>
+        <li>Line</li>
+        <li>Tree</li>
+        <li>Bus</li>
+        <li>Fully Connected</li>
+      </ul>
+    
+
+    <p>
+      Looking at the real world we can discuss common network architectures
+      being used in practice as well. At the highest level there is the
+      internet, which can be best described as a "network of
+      networks"<a class="citation" href="#ref2">[2]</a>. Before we describe the architecture of the
+      internet, let's look at smaller networks. Most users would gain access to
+      the internet through an internet service provider (ISP). An ISP have may be one
+      or more intermediary nodes between your local network and the rest of the
+      internet. Your local network would likely follow the star topology in the
+      simplest case. Revisiting the internet, we can describe the overall
+      structure of the internet as a recursive structure where at the highest
+      level you have large internet infrastructure providers who connect smaller
+      internet infrastructure providers together. One level below you have
+      smaller providers and so on. Hence "network of networks".
+    </p>
+
+    <h4>Local Networks</h4>
+
+    <p></p><center>&mdash;Incomplete&mdash;</center>
+
+  </section>
+
+  <section id="references">
+    <h3>References</h3>
+
+    <cite id="ref1">
+  <span>1.</span> https://en.wikipedia.org/wiki/Network_topology
+</cite>
+    <cite id="ref2">
+  <span>2.</span> https://en.wikipedia.org/wiki/Internet
+</cite>
   </section>
 
   <div class="chapter-nav astro-FTTOCOJM">
   <div class="astro-FTTOCOJM">
-    <span class="astro-FTTOCOJM">⏴ <a href="/chapter-1/introduction" class="astro-FTTOCOJM">Introduction</a></span>
+    <span class="astro-FTTOCOJM">&lt; <a href="/chapter-1/introduction" class="astro-FTTOCOJM">Introduction</a></span>
   </div>
   <div class="astro-FTTOCOJM">
-    <span class="astro-FTTOCOJM"><a href="/chapter-3/http" class="astro-FTTOCOJM">HTTP</a> ⏵</span>
+    <span class="astro-FTTOCOJM"><a href="/chapter-3/http" class="astro-FTTOCOJM">HTTP</a> &gt;</span>
   </div>
 </div>
 </article>

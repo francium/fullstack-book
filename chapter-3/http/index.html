@@ -9,13 +9,13 @@
     <title>HTTP ·Designing Fullstack Web Application</title>
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/_astro/introduction.b1b104ce.css" />
-<link rel="stylesheet" href="/_astro/introduction.71966078.css" /></head>
+  <link rel="stylesheet" href="/_astro/about.b1b104ce.css" />
+<link rel="stylesheet" href="/_astro/about.2248a099.css" /></head>
   <body>
     <article>
   <div class="chapter-nav astro-FTTOCOJM">
   <div class="astro-FTTOCOJM">
-    <span class="astro-FTTOCOJM">⏴ <a href="/" class="astro-FTTOCOJM">Table of Contents</a></span>
+    <span class="astro-FTTOCOJM">&lt; <a href="/" class="astro-FTTOCOJM">Table of Contents</a></span>
   </div>
   <div class="astro-FTTOCOJM">
     
@@ -29,16 +29,51 @@
 
   <section>
     <p>
-      TODO
+      Hypertext Transfer Protocol (HTTP) is the primary protocol web browsers
+      and web servers use to communicate with each other. If you're writing web
+      applications HTTP will be the center piece of everything. HTTP is an
+      application layer protocol and generally abstracts away all details from
+      the lower layers of the OSI network stack.
     </p>
+
+    <p>
+      When you open a web browser and try to go to a website, for example,
+      http://example.com, the web browser will connect to the web server that's
+      responsible for serving the webpages and other resource for the website.
+      This all happens using the HTTP protocol. The web browser will issue an
+      initial request encoded according to the HTTP specification and
+      the web browser will know how to decode and understand the request.
+      Similarly, when the server responds to the request, it will encode a
+      response according to the HTTP specification which the web browser will
+      know how to decode and understand.
+    </p>
+
+    <p>
+      HTTP is a request-response protocol and stateless: a request is made and
+      responses are expected, and there is no protocol level association between
+      different request-response pairs<a class="citation" href="#ref1">[1]</a>. HTTP
+      requests and responses are primarily encoded in plaintext, but can include
+      binary data<a class="citation" href="#ref2">[2]</a>.
+    </p>
+  </section>
+
+  <section id="references">
+    <h3>References</h3>
+
+    <cite id="ref1">
+  <span>1.</span> https://en.wikipedia.org/wiki/HTTP
+</cite>
+    <cite id="ref2">
+  <span>2.</span> https://datatracker.ietf.org/doc/html/rfc9112
+</cite>
   </section>
 
   <div class="chapter-nav astro-FTTOCOJM">
   <div class="astro-FTTOCOJM">
-    <span class="astro-FTTOCOJM">⏴ <a href="/chapter-2/networks-and-protocols" class="astro-FTTOCOJM">Networks and Protocols</a></span>
+    <span class="astro-FTTOCOJM">&lt; <a href="/chapter-2/networks-and-protocols" class="astro-FTTOCOJM">Networks and Protocols</a></span>
   </div>
   <div class="astro-FTTOCOJM">
-    <span class="astro-FTTOCOJM"><a href="/chapter-4/html" class="astro-FTTOCOJM">HTML</a> ⏵</span>
+    <span class="astro-FTTOCOJM"><a href="/chapter-4/html" class="astro-FTTOCOJM">HTML</a> &gt;</span>
   </div>
 </div>
 </article>
